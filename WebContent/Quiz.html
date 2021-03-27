@@ -76,7 +76,7 @@
 		    <tr>
 		        <th>주민번호</th>
 		        <td>
-		        	<input type="text" maxlength="6" id="userSsn1" name="userSsn1"                 title="주민번호1"> -
+		        	<input type="text" maxlength="6" id="userSsn1" name="userSsn1" title="주민번호1"> -
 		        	<input type="text" maxlength="7" id="userSsn2" name="userSsn2" title="주민번호2 ">
 		        </td>
 		    </tr>
@@ -145,4 +145,12 @@
 	    </table>
     </form>
  </body>
+ <script type="text/javascript">
+ 
+ let userSsn1regx = "\\d{2}([0]\\d|[1][0-2])([0][1-9]|[1-2]\\d|[3][0-1])";
+ let userSsn2regx = "[1-4]\\d{6}";
+ if(userSsn1regx.test($('#userSsn1').val) && userSsn2regx.test($('#userSsn2').val)){
+	 //alert()
+ }
+ </script>
 </html>

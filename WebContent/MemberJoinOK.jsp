@@ -23,7 +23,10 @@
     for (String str : hobbys) {
         userhobby += str + " ";
     }
+    
+    
 %>    
+
 <!DOCTYPE html>
 <html>
 <head>

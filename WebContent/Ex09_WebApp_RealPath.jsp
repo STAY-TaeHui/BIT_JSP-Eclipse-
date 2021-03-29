@@ -73,6 +73,7 @@ SP : /WebJSP/Member/Ex11_WebApp_RealPath.jsp
 	 	String sp = request.getServletPath(); // SP : 패키지 + 파일명
 
 	 	out.print("<br>");
+	 	out.print("<br>");
 	 	out.print("URL : " + url+"<br>");
 	 	out.print("URI : " + uri+"<br>");
 	 	out.print("CP : " + cp+"<br>");
